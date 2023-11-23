@@ -45,7 +45,7 @@ psbl.surriel.com
 sbl.spamhaus.org
 smtp.dnsbl.sorbs.net 	
 spam.dnsbl.sorbs.net
-spam.spamrats.com 	
+spam.spamrats.com
 recent.spam.dnsbl.sorbs.net
 xbl.spamhaus.org 	
 zen.spamhaus.org
