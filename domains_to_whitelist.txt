@@ -1,6 +1,41 @@
+# if a domain starts with " * "(e.g. *.googleapis.com) then that means add it as a wildcard ()
+
+
 play.google.com
 android.com
 google-analytics.com
 googleusercontent.com
 dl.google.com
 dl-ssl.google.com
+
+# Authentication For accounts.google.[country], use your local top-level domain for [country].
+# For example, for Australia use "accounts.google.com.au", and for United Kingdom use "accounts.google.co.uk".
+# accounts.google.[country]
+accounts.google.com
+accounts.google.com.au
+
+# Google Cloud Messaging (e.g.EMM Console <-> DPC communication, like pushing configs)
+gcm-http.googleapis.com
+gcm-xmpp.googleapis.com
+android.googleapis.com
+
+# Firebase Cloud Messaging (e.g.Find My Device, EMM Console <-> DPC communication, like pushing configs)
+fcm.googleapis.com
+fcm-xmpp.googleapis.com
+
+# Certificate Revocation list checks for Google-issued certificates
+pki.google.com
+clients1.google.com
+
+# Domains shared by various Google backend services such as crash reporting, Chrome Bookmark Sync, time sync (tlsdate), and many others
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+
+# chrome updates
+omahaproxy.appspot.com
+
+# CloudDPC download URL used
+android.clients.google.com
