@@ -3,13 +3,11 @@ https://www.smh.com.au/
 https://www.theaustralian.com.au/
 https://www.unimelb.edu.au/
 https://www.anu.edu.au/
-https://www.uq.edu.au/
 https://www.australia.gov.au/
 https://www.ato.gov.au/
 https://www.health.gov.au/
 https://www.amazon.com.au/
 https://www.ebay.com.au/
-https://www.kogan.com/au/
 https://www.zdnet.com.au/
 https://delimiter.com.au/
 https://www.techradar.com/au
@@ -21,3 +19,5 @@ https://www.tourism.australia.com/
 http://www.bom.gov.au/
 https://www.facebook.com/
 https://twitter.com/
+https://youtube.com/
+https://nypost.com/
