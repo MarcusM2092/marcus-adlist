@@ -1,6 +1,8 @@
-############################################################################################################################
-# if a domain starts with " * "(e.g. *.googleapis.com) then that means add it as a wildcard (e.g. "\.|^)googleapis\.com$") #
-############################################################################################################################
+###################################################################################################################################################
+# if a domain starts with " * "(e.g. *.googleapis.com) then that means add it as a wildcard (e.g. "\.|^)googleapis\.com$")                        #
+# ps all of these domains are from                                                                                                                #
+# **"https://static.googleusercontent.com/media/www.android.com/en//static/2016/pdfs/enterprise/Android-Enterprise-Migration-Bluebook_2019.pdf"** #
+###################################################################################################################################################
 
 
 
@@ -56,5 +58,31 @@ clients6.google.com
 # chrome updates
 omahaproxy.appspot.com
 
-# CloudDPC download URL used
+# CloudDPC download URL used in NFC provisioning
 android.clients.google.com
+
+# Connectivity check prior to CloudDPC v470 Android connectivity check starting with N MR1 requires
+# https://www.google.com/generate_204 to be reachable, or for the given WiFi network to point to a reachable PAC file.
+connectivitycheck.android.com
+www.google.com
+
+# self explanatory.
+fonts.googleapis.com
+
+# account authentication.
+accounts.youtube.com
+accounts.google.com
+
+# (looks weird (goog instead of google) but came from a reputable source)
+# certificate validation.
+cri.pki.goog
+ocsp.pki.goog
+
+# GCM and other google web services
+apis.google.com
+
+# iframe UI elements
+ogs.google.com
+
+# desktop/mobile notifications
+notifications.google.com
