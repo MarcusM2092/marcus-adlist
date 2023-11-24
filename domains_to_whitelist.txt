@@ -1,12 +1,31 @@
-# if a domain starts with " * "(e.g. *.googleapis.com) then that means add it as a wildcard ()
+############################################################################################################################
+# if a domain starts with " * "(e.g. *.googleapis.com) then that means add it as a wildcard (e.g. "\.|^)googleapis\.com$") #
+############################################################################################################################
 
 
+
+
+# Google Play and updates **gstatic.com**, **googleusercontent.com** - contains User Generated Content (e.g. app icons in the store).
+# **'*gvt1.com'**, **'*.ggpht'**, **dl.google.com**, **dl-ssl.google.com**, **android.clients.google.com** - Download apps and updates,Play Store APIs gvt2.com and gvt3.com 
+# are used for Play connectivity monitoring for diagnostics.
 play.google.com
 android.com
 google-analytics.com
 googleusercontent.com
+# *gstatic.com
+# *gvt1.com
+# *.ggpht.com
 dl.google.com
 dl-ssl.google.com
+android.clients.google.com
+# *gvt2.com
+# *gvt3.com
+
+
+
+
+# EMM/Google APIs/PlayStore APIs
+# *.googleapis.com
 
 # Authentication For accounts.google.[country], use your local top-level domain for [country].
 # For example, for Australia use "accounts.google.com.au", and for United Kingdom use "accounts.google.co.uk".
